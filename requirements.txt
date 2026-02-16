@@ -1,0 +1,18 @@
+# === Core ===
+chromadb>=0.4.22            # local vector database (persistent mode)
+sentence-transformers>=2.6  # local embedding models (wraps HuggingFace)
+anthropic>=0.39             # Claude API client for generation
+
+# === File Readers ===
+pypdf>=4.0                  # PDF text extraction
+python-docx>=1.1            # DOCX text extraction
+beautifulsoup4>=4.12        # HTML tag stripping
+
+# === CLI / UX ===
+rich>=13.7                  # colored terminal output, tables, spinners
+
+# === Optional (uncomment when needed) ===
+# pdfplumber>=0.11          # alternative PDF reader (better with tables)
+# watchdog>=4.0             # filesystem watcher for auto re-indexing
+# rank-bm25>=0.2            # BM25 keyword search for hybrid retrieval
+# gradio>=4.0               # web UI (stretch goal)
